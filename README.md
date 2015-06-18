@@ -1,4 +1,4 @@
-# HumidityCatcher
+# pyHumiTemp
 
 ![Python](https://www.python.org/static/community_logos/python-powered-w-70x28.png)
 
@@ -19,14 +19,14 @@ Download the script
 
 #### Archive
 
-Download archive of the latest version from https://github.com/viharm/HumidityCatcher/releases/latest.
+Download archive of the latest version from https://github.com/viharm/pyHumiTemp/releases/latest.
 
 
 #### Clone repository
 
 Clone the repository into the required location;
 ```
-git clone https://github.com/viharm/HumidityCatcher.git
+git clone https://github.com/viharm/pyHumiTemp.git
 ```
 
 
@@ -65,7 +65,7 @@ Simply run the script and pass the required quantity to be measured as a paramet
 
 ## Support
 
-For issues, queries, suggestions and comments please create an issue/ticket at https://github.com/viharm/HumidityCatcher/issues.
+For issues, queries, suggestions and comments please create an issue/ticket at https://github.com/viharm/pyHumiTemp/issues.
 
 
 ## Contribute
@@ -112,3 +112,4 @@ Copyright (C) Don Ho.
 ### GitHub
 
 Hosted by *GitHub* code repository (github.com).
+

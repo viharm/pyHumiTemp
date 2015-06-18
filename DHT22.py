@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # coding=utf-8
 
-## @package   HumdityCatcher
+## @package   pyHumiTemp
 #  \author    Vihar Malviya
 #  \version   See VERSION
 #  \brief     Program to provide numeric string output of humidity from DHT22

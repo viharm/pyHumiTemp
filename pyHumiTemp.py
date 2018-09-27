@@ -2,13 +2,13 @@
 # coding=utf-8
 
 ## @package   pyHumiTemp
-#  \author    Vihar Malviya
+#  \author    Viharm
 #  \version   See VERSION
 #  \brief     Program to provide numeric string output of humidity from DHT22
 #  \details   Program to provide numeric string output of humidity from DHT22
 #             by using tango's binary.
 #             Depends on //tango// (http://blog.e-photographer.net/?p=927)
-#  \copyright Copyright (C) 2015, Vihar Malviya;
+#  \copyright Copyright (C) 2015~18, Viharm;
 #  \license   Modified BSD (3-clause) license
 #             (see LICENSE or http://opensource.org/licenses/BSD-3-Clause)
 

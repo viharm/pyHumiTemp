@@ -1,11 +1,21 @@
 # pyHumiTemp
 
-![Python](https://www.python.org/static/community_logos/python-powered-w-70x28.png)
+|             |                                                          |
+|:------------|:---------------------------------------------------------|
+| Version     | 1.0.1                                                    |
+| Download    | https://github.com/viharm/pyHumiTemp/releases            |
+| Repository  | https://github.com/viharm/pyHumiTemp                     |
+| Issues      | https://github.com/viharm/pyHumiTemp/issues              |
+| License     | Modified BSD (3-clause)                                  |
+| Language    | Python                                                   |
 
-Script to capture numeric humidity and temperature output from DHT22.
+*pyHumiTemp* is a script to capture numeric humidity and temperature output from DHT22.
 
 
-## Pre-requisites
+## Installation
+
+
+### Pre-requisites
 
 * *DHT22* humidity and temperature sensor
 * ***tango*** binary (http://blog.e-photographer.net/?p=927) to interrogate *DHT22*
@@ -14,12 +24,27 @@ Script to capture numeric humidity and temperature output from DHT22.
 
 ### Download
 
-Download the script
+Download the script as an archive, clone as a *Git* repository and install with *pip* from *PyPI*
 
 
 #### Archive
 
 Download archive of the latest version from https://github.com/viharm/pyHumiTemp/releases/latest.
+
+
+### PyPI
+
+From version v1.0.1 onwards, *pyHumiTemp* is available on *[PyPI](https://pypi.org/)* and can be installed with *pip* (or *pip3*)
+
+```
+pip install pyhumitemp
+```
+
+Or if *pip* is not in the system path,
+
+```
+python3 -m pip install pyhumitemp
+```
 
 
 #### Clone repository
@@ -35,7 +60,7 @@ git clone https://github.com/viharm/pyHumiTemp.git
 No specific deployment requirements.
 
 
-## Configure
+## Configuration
 
 No configuration necessary.
 
@@ -44,18 +69,19 @@ No configuration necessary.
 
 Simply run the script and pass the required quantity to be measured as a parameter
 
+
 ### Temperature
+
 ```
 /usr/bin/python3 DHT22.py --param=temperature
 ```
 
 
 ### Humidity
+
 ```
 /usr/bin/python3 DHT22.py --param=humidity
 ```
-
-
 
 
 ## Known issues ##
@@ -76,6 +102,7 @@ Please make contact for more information.
 
 
 ## Development environment ##
+
 Developed on..
 
 * *Raspberry Pi* model B (rev 1) and model A+
@@ -97,19 +124,39 @@ A copy of the license is available...
 ## Credits
 
 
-### tango
+### Tools
+
+
+#### tango
 
 *tango* binary for interrogating *DHT22*
 
 
-### Notepad++
+### Utilities
+
+
+#### Notepad++
 
 *Notepad++* text editor (https://notepad-plus-plus.org/), used under the GNU GPL.
 
 Copyright (C) Don Ho.
 
 
-### GitHub
+#### Codiad
+
+*Codiad* web based IDE (https://github.com/Codiad/Codiad), used under a MIT-style license.
+
+Copyright (c) Codiad & Kent Safranski (codiad.com)
+
+
+#### Ungit
+
+*Ungit* web based interface for *Git* (https://github.com/FredrikNoren/ungit), used under the MIT license.
+
+Copyright (C) 2013-2016 Fredrik Norén
+
+
+#### GitHub
 
 Hosted by *GitHub* code repository (github.com).
 

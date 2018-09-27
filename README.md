@@ -2,7 +2,7 @@
 
 |             |                                                          |
 |:------------|:---------------------------------------------------------|
-| Version     | 1.0.1                                                    |
+| Version     | 1.0.1+                                                   |
 | Changes     | https://github.com/viharm/pyHumiTemp/pull/3/commits      |
 | Download    | https://github.com/viharm/pyHumiTemp/releases            |
 | Repository  | https://github.com/viharm/pyHumiTemp                     |
